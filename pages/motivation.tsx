@@ -1,3 +1,4 @@
+import "@/app/globals.css";
 import NavBar from "@/components/nav-bar";
 import { Button } from "@/components/ui/button";
 import {
@@ -9,10 +10,11 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-export default function Home() {
+export default function Motivation() {
   return (
-    <main>
+    <main className="font-Source_Code_Pro">
       <NavBar />
+      <h1 className="text-4xl font-bold text-center mt-12">Motivation</h1>
       <div className="flex gap-2 justify-center mt-12">
         <Card>
           <CardHeader>
