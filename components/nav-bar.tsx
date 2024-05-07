@@ -11,6 +11,9 @@ export default function NavBar() {
         <li className="hover:bg-indigo-100 py-2 px-4 rounded-md border-x-2">
           <Link href="/motivation">Motivation</Link>
         </li>
+        <li className="hover:bg-indigo-100 p-2 px-4 rounded-md border-x-2">
+          <Link href="/portfolio">Portfolio</Link>
+        </li>
         <li className="hover:bg-indigo-100 p-2 px-4 rounded-md border-l-2">
           <Link href="/contact">Contact</Link>
         </li>
