@@ -4,18 +4,20 @@ import { JSX, SVGProps } from "react";
 export default function Component() {
   return (
     <main className="w-full max-w-5xl mx-auto px-4 md:px-6 ">
-      <header className="w-full  py-12 md:py-16 lg:py-20">
-        <div className="w-full max-w-5xl mx-auto px-4 md:px-6">
-          <div className="text-center space-y-4 animate-fade-in">
-            <h1 className="text-3xl font-bold  md:text-4xl lg:text-5xl">
-              Welcome to My Portfolio
-            </h1>
-            <p className="text-gray-500 dark:text-gray-400 text-base md:text-lg lg:text-xl mb-8">
-              Discover our expertise in web development and design.
-            </p>
+      <Card className="w-full my-10 md:py-11">
+        <CardHeader>
+          <div className="w-full max-w-5xl mx-auto px-4 md:px-6">
+            <div className="text-center space-y-4 animate-fade-in">
+              <CardTitle className="text-3xl font-bold  md:text-4xl lg:text-5xl">
+                Welcome to My Portfolio
+              </CardTitle>
+              <CardContent className=" text-lg">
+                Discover our expertise in web development and design.
+              </CardContent>
+            </div>
           </div>
-        </div>
-      </header>
+        </CardHeader>
+      </Card>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <Card>
           <CardHeader className="flex items-center gap-4">

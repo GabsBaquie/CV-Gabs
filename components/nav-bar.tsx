@@ -1,21 +1,33 @@
 import Link from "next/link";
 import { Card } from "./ui/card";
 
-export default function NavBar() {
+type NavBarProps = {
+  onNavClick: (section: string) => void;
+};
+
+export default function NavBar({ onNavClick }: NavBarProps) {
   return (
-    <Card>
-      <ul className="flex gap-12 justify-center my-3 text-sm text-muted-foreground">
-        <li className="hover:bg-indigo-100 p-2 px-4 rounded-md border-r-2">
+    <Card className=" mx-auto">
+      <ul className="flex gap-12 justify-center my-3 text-muted-foreground">
+        <li
+          onClick={() => onNavClick("Header")}
+          className="hover:bg-indigo-900 hover:text-white p-2 px-4 rounded-md cursor-pointer border-r-2">
           <Link href="/">CV</Link>
         </li>
-        <li className="hover:bg-indigo-100 py-2 px-4 rounded-md border-x-2">
-          <Link href="/motivation">Motivation</Link>
+        <li
+          onClick={() => onNavClick("Motivation")}
+          className="hover:bg-indigo-900 hover:text-white py-2 px-4 rounded-md cursor-pointer border-x-2">
+          <Link href="/">Motivation</Link>
         </li>
-        <li className="hover:bg-indigo-100 p-2 px-4 rounded-md border-x-2">
-          <Link href="/portfolio">Portfolio</Link>
+        <li
+          onClick={() => onNavClick("Portfolio")}
+          className="hover:bg-indigo-900 hover:text-white p-2 px-4 rounded-md cursor-pointer border-x-2 ">
+          <Link href="/">Portfolio</Link>
         </li>
-        <li className="hover:bg-indigo-100 p-2 px-4 rounded-md border-l-2">
-          <Link href="/contact">Contact</Link>
+        <li
+          onClick={() => onNavClick("Contact")}
+          className="hover:bg-indigo-900 hover:text-white p-2 px-4 rounded-md border-l-2 cursor-pointer">
+          <Link href="/">Contact</Link>
         </li>
       </ul>
     </Card>

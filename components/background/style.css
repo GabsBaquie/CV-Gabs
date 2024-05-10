@@ -1,0 +1,42 @@
+/* @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.slow-spin {
+  animation: spin 30s linear infinite;
+}
+
+.medium-spin {
+  animation: spin 5s linear infinite;
+}
+
+.fast-spin {
+  animation: spin 2s linear infinite;
+} */
+
+.bg-shape {
+  width: 35vw;
+  height: 35vw;
+}
+
+#circle1 {
+  left: 5vw;
+  top: 5vh;
+}
+#circle2 {
+  top: 20vh;
+  left: 50vw;
+}
+#circle3 {
+  left: 30vw;
+  top: 15vh;
+}
+#circle4 {
+  left: 60vw;
+  top: 30vh;
+}

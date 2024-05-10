@@ -1,5 +1,7 @@
-import type { Metadata } from "next";
+import Background from "@/components/background/background";
 import { Source_Code_Pro } from "next/font/google";
+
+import { Metadata } from "next";
 import "./globals.css";
 
 const sourceSansPro = Source_Code_Pro({ subsets: ["latin"] });
@@ -15,8 +17,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={sourceSansPro.className}>{children}</body>
+    <html lang="fr">
+      <body className={sourceSansPro.className}>
+        <Background>{children}</Background>
+      </body>
     </html>
   );
 }

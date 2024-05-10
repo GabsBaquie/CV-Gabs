@@ -1,11 +1,9 @@
 import "@/app/globals.css";
 import Image from "next/image";
-import NavBar from "../components/nav-bar";
 
 export default function Portfolio() {
   return (
     <main className="font-Source_Code_Pro">
-      <NavBar />
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">

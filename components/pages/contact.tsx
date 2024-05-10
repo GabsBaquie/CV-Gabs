@@ -1,5 +1,4 @@
 import "@/app/globals.css";
-import NavBar from "@/components/nav-bar";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -16,7 +15,6 @@ import { Textarea } from "@/components/ui/textarea";
 export default function Contact() {
   return (
     <main className="font-Source_Code_Pro">
-      <NavBar />
       <h1 className="text-4xl font-bold text-center mt-12">Contact</h1>
       <div className=" flex justify-center mt-12">
         <Card className="w-full max-w-lg">
