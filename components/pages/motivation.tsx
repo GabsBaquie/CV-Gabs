@@ -10,7 +10,7 @@ import {
 export default function Motivation() {
   return (
     <>
-      <Card className="m-10">
+      <Card className="mt-10 mx-4">
         <CardHeader>
           <CardTitle>lettre de motivation</CardTitle>
         </CardHeader>
