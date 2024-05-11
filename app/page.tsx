@@ -2,7 +2,6 @@
 
 import Header from "@/components/header";
 import NavBar from "@/components/nav-bar";
-import Contact from "@/components/pages/contact";
 import Motivation from "@/components/pages/motivation";
 import Portfolio from "@/components/pages/portfolio";
 import { motion } from "framer-motion";
@@ -18,7 +17,7 @@ export default function Home() {
   return (
     <>
       <NavBar onNavClick={handleNavClick} />
-      <div className="flex flex-row justify-center w-full max-w-5xl">
+      <main className="w-screen h-screen flex justify-center max-w-5xl ">
         {visibleComponent === "Header" && (
           <motion.section
             id="Header"
@@ -48,17 +47,7 @@ export default function Home() {
             <Portfolio />
           </motion.section>
         )}
-
-        {visibleComponent === "Contact" && (
-          <motion.section
-            id="Contact"
-            initial={{ x: "100vw" }}
-            animate={{ x: "0" }}
-            transition={{ type: "spring", stiffness: 50, damping: 10 }}>
-            <Contact />
-          </motion.section>
-        )}
-      </div>
+      </main>
     </>
   );
 }

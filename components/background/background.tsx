@@ -16,37 +16,35 @@ const Background: React.FC<BackgroundProps> = ({ children }) => {
   const Ycirclie3 = useTransform(scrollY, (value) => value * 1.2);
 
   return (
-    <div className="absolute top-10 inset-0 justify-center flex w-screen">
-      <div className="absolute inset-0">
-        <motion.div
-          id="circle1"
-          className="bg-shape absolute bg-indigo-500 opacity-50 blur-2xl rounded-full"
-          style={{
-            translateY: Ycirclie1,
-            translateX: Ycirclie1,
-          }}></motion.div>
-        <motion.div
-          id="circle2"
-          className="bg-shape absolute bg-indigo-700 opacity-50 blur-2xl rounded-full"
-          style={{
-            translateY: Ycirclie2,
-            translateX: Ycirclie1,
-          }}></motion.div>
-        <motion.div
-          id="circle3"
-          className="bg-shape absolute bg-cyan-500 opacity-50 blur-2xl rounded-full"
-          style={{
-            translateY: Ycirclie3,
-            translateX: Ycirclie1,
-          }}></motion.div>
-        <motion.div
-          id="circle4"
-          className="bg-shape absolute bg-cyan-500 opacity-50 blur-2xl rounded-full"
-          style={{
-            translateY: Ycirclie2,
-            translateX: Ycirclie2,
-          }}></motion.div>
-      </div>
+    <div className="mt-8 inset-0 justify-center flex w-full overflow-x-hidden;">
+      <motion.div
+        id="circle1"
+        className="bg-shape absolute bg-indigo-500 opacity-50 blur-2xl rounded-full  "
+        style={{
+          translateY: Ycirclie1,
+          translateX: Ycirclie1,
+        }}></motion.div>
+      <motion.div
+        id="circle2"
+        className="bg-shape absolute bg-indigo-700 opacity-50 blur-2xl rounded-full "
+        style={{
+          translateY: Ycirclie2,
+          translateX: Ycirclie1,
+        }}></motion.div>
+      <motion.div
+        id="circle3"
+        className="bg-shape absolute bg-cyan-500 opacity-50 blur-2xl rounded-full "
+        style={{
+          translateY: Ycirclie3,
+          translateX: Ycirclie1,
+        }}></motion.div>
+      <motion.div
+        id="circle4"
+        className="bg-shape absolute bg-cyan-500 opacity-50 blur-2xl rounded-full "
+        style={{
+          translateY: Ycirclie2,
+          translateX: Ycirclie2,
+        }}></motion.div>
 
       <div className="z-10">{children}</div>
     </div>
