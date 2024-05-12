@@ -46,11 +46,11 @@ export default function Component() {
               Vue.js, Angular, HTML, CSS et JavaScript. Conception
               d&apos;interfaces utilisateur responsive et interactives.
             </p>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <PuzzleIcon className="w-4 h-4" />
               <span>React, Vue.js, Angular</span>
             </div>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <CodeIcon className="w-4 h-4" />
               <span>HTML, CSS, JavaScript</span>
             </div>
@@ -67,11 +67,11 @@ export default function Component() {
               Python et Ruby on Rails. Conception d&apos;API RESTful et de
               systèmes de gestion de données robustes.
             </p>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <PuzzleIcon className="w-4 h-4" />
               <span>Node.js, PHP, Python</span>
             </div>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <CodeIcon className="w-4 h-4" />
               <span>Ruby on Rails</span>
             </div>
@@ -88,11 +88,11 @@ export default function Component() {
               l&apos;expérience utilisateur et la productivité. Expertise dans
               l&apos;intégration et la personnalisation de ces outils.
             </p>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <PuzzleIcon className="w-4 h-4" />
               <span>Tailwind CSS, Material UI, Bootstrap</span>
             </div>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <CodeIcon className="w-4 h-4" />
               <span>Redux, Axios, Moment.js</span>
             </div>
@@ -100,20 +100,20 @@ export default function Component() {
         </Card>
       </div>
 
-      <Card className="my-10 flex flex-col  ">
-        <CardHeader className="flex flex-row justify-center">
+      <Card className="my-10 flex flex-col items-center">
+        <CardHeader className="flex flex-row justify-center gap-6 md:gap-4 ">
           <FormationIcon />
           <CardTitle>Formation</CardTitle>
         </CardHeader>
 
-        <CardFooter className="flex flex-row justify-center items-baseline gap-20">
+        <CardFooter className="flex flex-col md:flex-row justify-center items-baseline gap-4 md:gap-20 ml-4">
           <CardContent className="max-w-60">
             <p className="pb-4">EPSI - Bordeaux</p>
             <p>Développement web et web mobile</p>
             <span>BAC +2</span>
 
             <div className="flex items-center gap-2 text-sm text-muted-foreground mt-4">
-              <PuzzleIcon className="w-4 h-4" />
+              <CodeIcon className="w-4 h-4" />
               <span>EPSI 2023-2024</span>
             </div>
           </CardContent>
@@ -121,58 +121,35 @@ export default function Component() {
           <CardContent>
             <p className="pb-4">THREE.JS JOURNEY</p>
 
-            <div className="flex items-center gap-2 text-sm text-muted-foreground mt-22">
-              <PuzzleIcon className="w-4 h-4" />
-              <span>Bruno Simon 2023</span>
+            <div className="flex flex-col gap-2 text-sm text-muted-foreground">
+              <CardDescription className="max-w-60 text-white text-xs">
+                Expérience approfondie en Three.js, Maîtrise de WebGL et
+                capacité à créer des projets 3D interactifs de manière autonome
+                sur le web
+              </CardDescription>
+
+              <div className="flex gap-2 items-center">
+                <ThreeIcon className="w-4 h-4" />
+                <span>Bruno Simon 2023</span>
+              </div>
             </div>
           </CardContent>
 
           <CardContent>
-            <p className="pb-4">BEGIN REACT</p>
-            <p>BEGIN JAVASCRIPT</p>
-            <div className="flex items-center gap-2 text-sm text-muted-foreground mt-16">
-              <PuzzleIcon className="w-4 h-4" />
-              <span>Codelynx 2023</span>
+            <p>BEGIN REACT</p>
+            <p className="pb-4">BEGIN JAVASCRIPT</p>
+            <div className="flex flex-col gap-2 text-sm text-muted-foreground">
+              <CardDescription className="max-w-60 text-white text-xs">
+                Développement de compétences en React et JavaScript, Création
+                d&apos;applications web modernes et dynamiques
+              </CardDescription>
+              <div className="flex gap-2 items-center">
+                <CodeIcon className="w-4 h-4" />
+                <span>Codelynx 2023</span>
+              </div>
             </div>
           </CardContent>
         </CardFooter>
-
-        {/* <CardHeader className="flex flex-row justify-center items-center gap-4">
-          <CardContent className="space-y-2">
-            <p>Development web et web mobile - BAC +2</p>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-              <PuzzleIcon className="w-4 h-4" />
-              <span>EPSI 2023-2024</span>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-              <CodeIcon className="w-4 h-4" />
-              <span>Redux, Axios, Moment.js</span>
-            </div>
-          </CardContent>
-          <CardContent className="space-y-2 align-bottom">
-            <p>THREE.JS JOURNEY</p>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-              <PuzzleIcon className="w-4 h-4" />
-              <span>BRUNO SIMON 2023</span>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-              <CodeIcon className="w-4 h-4" />
-              <span>Redux, Axios, Moment.js</span>
-            </div>
-          </CardContent>
-          <CardContent className="space-y-2">
-            <p>begin react</p>
-            <p>begin javascript</p>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-              <PuzzleIcon className="w-4 h-4" />
-              <span>Codelynx 2023</span>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-              <CodeIcon className="w-4 h-4" />
-              <span>Redux, Axios, Moment.js</span>
-            </div>
-          </CardContent>
-        </CardHeader> */}
       </Card>
     </main>
   );
@@ -245,6 +222,7 @@ function ServerIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
       width="24"
       height="24"
       viewBox="0 0 24 24"
+      className="w-8 h-8"
       fill="none"
       stroke="currentColor"
       strokeWidth="2"
@@ -254,6 +232,24 @@ function ServerIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
       <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
       <line x1="6" x2="6.01" y1="6" y2="6" />
       <line x1="6" x2="6.01" y1="18" y2="18" />
+    </svg>
+  );
+}
+
+function ThreeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 22 22"
+      strokeWidth={1.5}
+      stroke="currentColor"
+      className="w-4 h-4">
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"
+      />
     </svg>
   );
 }

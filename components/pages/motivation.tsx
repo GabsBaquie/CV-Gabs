@@ -10,56 +10,67 @@ import {
 export default function Motivation() {
   return (
     <>
-      <Card className="mt-10 mx-4">
+      <Card className="mt-10 mx-4 ">
         <CardHeader>
           <CardTitle>lettre de motivation</CardTitle>
         </CardHeader>
-        <CardContent>
-          <p className="text-gray-500 dark:text-gray-400">Cher recruteur,</p>
-          <p className="text-lg leading-relaxed">
-            Je suis ravi de vous soumettre ma candidature pour le poste de
-            développeur web au sein de votre entreprise. Depuis mon plus jeune
-            âge, j&aposai toujours été fasciné par la technologie et la façon
-            dont elle peut transformer notre monde. C&aposest cette passion qui
-            m&aposa conduit à me spécialiser dans le développement web, un
-            domaine en constante évolution qui me passionne.
+        <CardContent className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed ">
+            Ancienne streameuse et étudiante passionnée de développement
+            informatique, je me tourne désormais vers ma troisième année
+            d&apos;études supérieures en développement web à Ynov Bordeaux.
+            Forte d&apos;une base théorique et pratique acquise au cours de mes
+            deux dernières années d’études en développement web et web mobile à
+            l&apos;EPSI, je suis prête à mettre en pratique mes compétences et à
+            approfondir mes connaissances dans un environnement stimulant.
           </p>
-          <p className="text-lg leading-relaxed animate-fadeIn">
-            Au cours de mes études, j&aposai eu l&aposopportunité de développer
-            des compétences techniques solides en HTML, CSS, JavaScript, ainsi
-            que dans l&aposutilisation de frameworks et de bibliothèques
-            populaires comme React et Vue.js. J&aposai également acquis une
-            bonne compréhension des principes de conception web, de
-            l&aposoptimisation des performances et des meilleures pratiques en
-            matière de développement. Mes projets personnels et mes stages
-            m&aposont permis de mettre en pratique ces connaissances et de
-            développer une approche créative et orientée solutions pour résoudre
-            des problèmes complexes.
+          <br />
+          <p>
+            Motivée par l&apos;idée d&apos;intégrer cette école dynamique où je
+            pourrai contribuer à des projets concrets tout en continuant à
+            apprendre et à progresser, je suis ouverte à de nouveaux défis et
+            prête à &apos;investir pleinement dans les missions qui me seront
+            confiées.
           </p>
-          <p className="text-lg leading-relaxed animate-fadeIn">
-            Au-delà de mes compétences techniques, je suis également doté
-            d&aposun esprit d&aposéquipe et d&aposune capacité à communiquer
-            efficacement. J&aposaime collaborer avec des équipes
-            pluridisciplinaires pour créer des expériences web innovantes et
-            engageantes. Mon objectif est de rejoindre une entreprise dynamique
-            comme la vôtre, où je pourrai continuer à développer mes compétences
-            et contribuer activement à la réalisation de vos projets web.
+          <br />
+          <p>
+            Au fil de mes études, j&apos;ai développé une solide expertise dans
+            la programmation et l&apos;utilisation de logiciels. Maîtrisant
+            plusieurs langages full stack tels que :
           </p>
-          <p className="text-lg leading-relaxed animate-fadeIn">
-            Je suis convaincu que mes connaissances, mon enthousiasme et mon
-            engagement feraient de moi un atout précieux pour votre équipe de
-            développement web. Je serais ravi d&aposavoir l&aposopportunité de
-            discuter plus en détail de mon parcours et de mes aspirations lors
-            d&aposun entretien. Je vous remercie de l&aposattention que vous
-            porterez à ma candidature et je me tiens à votre disposition pour
-            toute information complémentaire.
+          <br />
+          <p>Front-end : HTML, CSS et JavaScript. </p>
+          <br />
+          <p>
+            Back-end : Python, PHP, Ruby and Rails et SQL, ainsi que des
+            technologies comme React, Next.js, Tailwind CSS, Three.js (3D),
+            j&apos;ai également acquis une expérience basique dans le
+            développement d&apos;applications mobiles native.
+          </p>
+          <br />
+          <p>
+            Mon approche méthodique et mon souci du détail me permettent de
+            produire un code propre et efficace. De plus, mon esprit
+            d&apos;équipe et ma capacité à m&apos;adapter rapidement me
+            permettent de m&apos;intégrer facilement à différents projets.
+          </p>
+          <br />
+          <p>
+            Avec 8 ans d&apos;expérience dans le milieu de la restauration et
+            des expériences de voyages en immersion dans différents pays, j’ai
+            acquis une polyvalence, une réactivité et un esprit
+            d&apos;initiative. Organisée, appréciant le travail en équipe tout
+            autant que l&apos;autonomie, je suis convaincue que mon parcours
+            atypique apportera un regard créatif et des retombées positives dans
+            votre établissement. Je suis disponible pour discuter de toute
+            opportunité et impatiente de contribuer au parcours de votre école.
           </p>
         </CardContent>
         <CardFooter>
-          <p className="text-lg leading-relaxed animate-fadeIn">
+          <p>
             Cordialement,
             <br />
-            [Votre nom]
+            Gabrielle Baquie
           </p>
         </CardFooter>
       </Card>
