@@ -21,6 +21,9 @@ const config = {
       fontFamily: {
         Source_Code_Pro: ["Source Code Pro", "sans-serif"],
       },
+      spacing: {
+        "22": "5.5rem",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

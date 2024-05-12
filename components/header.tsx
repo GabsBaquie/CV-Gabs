@@ -1,23 +1,39 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { JSX, SVGProps } from "react";
 
 export default function Component() {
   return (
     <main className="w-full max-w-5xl mx-auto px-4 md:px-6 ">
       <Card className="w-full my-10 md:py-11">
-        <CardHeader>
+        <CardHeader className="py-0">
           <div className="w-full max-w-5xl mx-auto px-4 md:px-6">
             <div className="text-center space-y-4 animate-fade-in">
               <CardTitle className="text-3xl font-bold  md:text-4xl lg:text-5xl">
-                Welcome to My Portfolio
+                Gabrielle Baquie
               </CardTitle>
               <CardContent className=" text-lg">
-                Discover our expertise in web development and design.
+                <p className="font-bold">Developpeuse web full-stack</p>
+                <CardDescription className=" text-white pt-4">
+                  Ancienne streameuse et étudiante passionnée de développement
+                  informatique, Aujourd&rsquo;hui, je souhaite m&rsquo;orienter
+                  vers ma troisième année d&rsquo;études supérieures en
+                  développement web chez Ynov Bordeaux. Je suis prête à mettre
+                  en pratique mes compétences et d&rsquo;approfondir mes
+                  connaissances dans un environnement stimulant.
+                </CardDescription>
               </CardContent>
             </div>
           </div>
         </CardHeader>
       </Card>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <Card>
           <CardHeader className="flex items-center gap-4">
@@ -83,7 +99,104 @@ export default function Component() {
           </CardContent>
         </Card>
       </div>
+
+      <Card className="my-10 flex flex-col  ">
+        <CardHeader className="flex flex-row justify-center">
+          <FormationIcon />
+          <CardTitle>Formation</CardTitle>
+        </CardHeader>
+
+        <CardFooter className="flex flex-row justify-center items-baseline gap-20">
+          <CardContent className="max-w-60">
+            <p className="pb-4">EPSI - Bordeaux</p>
+            <p>Développement web et web mobile</p>
+            <span>BAC +2</span>
+
+            <div className="flex items-center gap-2 text-sm text-muted-foreground mt-4">
+              <PuzzleIcon className="w-4 h-4" />
+              <span>EPSI 2023-2024</span>
+            </div>
+          </CardContent>
+
+          <CardContent>
+            <p className="pb-4">THREE.JS JOURNEY</p>
+
+            <div className="flex items-center gap-2 text-sm text-muted-foreground mt-22">
+              <PuzzleIcon className="w-4 h-4" />
+              <span>Bruno Simon 2023</span>
+            </div>
+          </CardContent>
+
+          <CardContent>
+            <p className="pb-4">BEGIN REACT</p>
+            <p>BEGIN JAVASCRIPT</p>
+            <div className="flex items-center gap-2 text-sm text-muted-foreground mt-16">
+              <PuzzleIcon className="w-4 h-4" />
+              <span>Codelynx 2023</span>
+            </div>
+          </CardContent>
+        </CardFooter>
+
+        {/* <CardHeader className="flex flex-row justify-center items-center gap-4">
+          <CardContent className="space-y-2">
+            <p>Development web et web mobile - BAC +2</p>
+            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+              <PuzzleIcon className="w-4 h-4" />
+              <span>EPSI 2023-2024</span>
+            </div>
+            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+              <CodeIcon className="w-4 h-4" />
+              <span>Redux, Axios, Moment.js</span>
+            </div>
+          </CardContent>
+          <CardContent className="space-y-2 align-bottom">
+            <p>THREE.JS JOURNEY</p>
+            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+              <PuzzleIcon className="w-4 h-4" />
+              <span>BRUNO SIMON 2023</span>
+            </div>
+            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+              <CodeIcon className="w-4 h-4" />
+              <span>Redux, Axios, Moment.js</span>
+            </div>
+          </CardContent>
+          <CardContent className="space-y-2">
+            <p>begin react</p>
+            <p>begin javascript</p>
+            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+              <PuzzleIcon className="w-4 h-4" />
+              <span>Codelynx 2023</span>
+            </div>
+            <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+              <CodeIcon className="w-4 h-4" />
+              <span>Redux, Axios, Moment.js</span>
+            </div>
+          </CardContent>
+        </CardHeader> */}
+      </Card>
     </main>
+  );
+}
+
+function FormationIcon(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={2}
+      stroke="currentColor"
+      className="w-8 h-8">
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
+      />
+    </svg>
   );
 }
 
