@@ -16,7 +16,7 @@ const Background: React.FC<BackgroundProps> = ({ children }) => {
   const Ycirclie3 = useTransform(scrollY, (value) => value * 1.2);
 
   return (
-    <div className="mt-8 inset-0 justify-center flex w-full overflow-x-hidden;">
+    <div className="mt-8 inset-0 justify-center flex w-full ">
       <motion.div
         id="circle1"
         className="bg-shape absolute bg-indigo-500 opacity-50 blur-2xl rounded-full  "

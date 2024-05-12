@@ -11,14 +11,6 @@
   animation: spin 30s linear infinite;
 }
 
-/* .medium-spin {
-  animation: spin 5s linear infinite;
-}
-
-.fast-spin {
-  animation: spin 2s linear infinite;
-} */
-
 .bg-shape {
   width: 35vw;
   height: 36vw;
