@@ -1,77 +1,125 @@
-import "@/app/globals.css";
 import Image from "next/image";
+import { Card } from "../ui/card";
 
-export default function Portfolio() {
+export default function Component() {
   return (
-    <main className="font-Source_Code_Pro">
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
-        <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center space-y-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Our Portfolio
+    <Card>
+      <header className="py-8 dark:bg-gray-800">
+        <div className="container mx-auto px-4 md:px-6">
+          <h1 className="text-2xl font-bold tracking-tight">
+            Portfolio Project
+          </h1>
+          <p className="mt-4 text-lg text-muted-foreground">
+            Découvrez mon dernier projet de portfolio en ligne.
+          </p>
+        </div>
+      </header>
+      <main className="py-12 md:py-16 lg:py-20">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid gap-8 lg:grid-cols-2">
+            <div>
+              <h2 className="text-2xl font-bold tracking-tight">
+                Présentation de projet
               </h2>
-              <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                Explore our diverse range of successful projects and see how
-                we&apos;ve helped our clients achieve their goals.
+              <p className="mt-4 text-muted-foreground">
+                Ce projet de portfolio a été conçu pour mettre en valeur mes
+                compétences de développeur web. Il comprend une interface
+                responsive, des animations fluides et une structure de
+                navigation intuitive. J&apos;ai utilisé les dernières
+                technologies web pour construire cette application, notamment
+                React, Tailwind CSS et Vercel.
+              </p>
+              <p className="mt-4 text-muted-foreground">
+                Vous pourrez découvrir mes différents projets, mes expériences
+                professionnelles et mes compétences techniques. N&apos;hésitez
+                pas à me contacter si vous avez des questions ou si vous
+                souhaitez collaborer.
               </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <div className="grid gap-4 sm:grid-cols-2">
+              <Card className=" h-300 w-400 rounded-md text-center inset-0">
+                <h3 className="text-lg font-bold m-9 absolute">
+                  En cours d&apos;ctualisation
+                </h3>
                 <Image
-                  alt="Project 1"
-                  className="rounded-lg mb-4"
-                  height={300}
-                  src="https://fakeimg.pl/250x100/?retina=1&text=🦋"
+                  alt="Des nouveaux projets arrivent bientôt"
+                  className="rounded-lg object-cover"
+                  height="300"
+                  src="/images/chocoPap.png"
                   style={{
+                    opacity: 0.2,
                     aspectRatio: "400/300",
                     objectFit: "cover",
                   }}
-                  width={400}
+                  width="400"
                 />
-                <h3 className="text-lg font-bold">Project 1</h3>
-                <p className="text-gray-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              </Card>
+              <Card>
+                <h3 className="text-lg font-bold m-9 absolute">
+                  En cours d&apos;ctualisation
+                </h3>
                 <Image
-                  alt="Project 2"
-                  className="rounded-lg mb-4"
-                  height={300}
-                  src="https://fakeimg.pl/250x100/?retina=1&text= 🌈"
+                  alt=""
+                  className="rounded-lg object-cover"
+                  height="300"
+                  src="/images/Bike.png"
                   style={{
+                    opacity: 0.2,
                     aspectRatio: "400/300",
                     objectFit: "cover",
                   }}
-                  width={400}
+                  width="400"
                 />
-                <h3 className="text-lg font-bold">Project 2</h3>
-                <p className="text-gray-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              </Card>
+              <Card className=" h-300 w-400 rounded-md text-center inset-0">
+                <h3 className="text-lg font-bold m-9 absolute">
+                  En cours d&apos;ctualisation
+                </h3>
                 <Image
-                  alt="Project 3"
-                  className="rounded-lg mb-4"
-                  height={300}
-                  src="https://fakeimg.pl/250x100/?retina=1&text= 🌻"
+                  alt=""
+                  className="rounded-lg object-cover"
+                  height="300"
+                  src="/"
                   style={{
+                    opacity: 0,
                     aspectRatio: "400/300",
                     objectFit: "cover",
                   }}
-                  width={400}
+                  width="400"
                 />
-                <h3 className="text-lg font-bold">Project 3</h3>
-                <p className="text-gray-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
+              </Card>
+              <Card className=" h-300 w-400 rounded-md text-center inset-0">
+                <h3 className="text-lg font-bold m-9 absolute">
+                  En cours d&apos;ctualisation
+                </h3>
+                <Image
+                  alt=""
+                  className="rounded-lg object-cover"
+                  height="300"
+                  src="/"
+                  style={{
+                    opacity: 0,
+                    aspectRatio: "400/300",
+                    objectFit: "cover",
+                  }}
+                  width="400"
+                />
+              </Card>
             </div>
           </div>
         </div>
+      </main>
+      <section className=" py-12 md:py-16 lg:py-20 dark:bg-gray-800">
+        <div className="container mx-auto px-4 md:px-6">
+          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+            Contactez-moi
+          </h2>
+          <p className="mt-4 text-muted-foreground">
+            N&apos;hésitez pas à me contacter pour toute question ou
+            collaboration.
+          </p>
+        </div>
       </section>
-    </main>
+    </Card>
   );
 }
