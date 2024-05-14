@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Card } from "../ui/card";
 
 export default function Component() {
@@ -38,22 +39,22 @@ export default function Component() {
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               <Card className=" h-300 w-400 rounded-md text-center inset-0">
-                <h3 className="text-lg font-bold m-9 absolute">
-                  En cours d&apos;ctualisation
-                </h3>
-                <Image
-                  alt="Des nouveaux projets arrivent bientôt"
-                  className="rounded-lg object-cover"
-                  height="300"
-                  src="/images/chocoPap.png"
-                  style={{
-                    opacity: 0.2,
-                    aspectRatio: "400/300",
-                    objectFit: "cover",
-                  }}
-                  width="400"
-                />
+                <Link href="https://choco-pap-react.vercel.app">
+                  <Image
+                    alt="Des nouveaux projets arrivent bientôt"
+                    className="rounded-lg object-cover"
+                    height="300"
+                    src="/images/chocoPap.png"
+                    style={{
+                      opacity: 0.9,
+                      aspectRatio: "400/300",
+                      objectFit: "cover",
+                    }}
+                    width="400"
+                  />
+                </Link>
               </Card>
+
               <Card>
                 <h3 className="text-lg font-bold m-9 absolute">
                   En cours d&apos;ctualisation
