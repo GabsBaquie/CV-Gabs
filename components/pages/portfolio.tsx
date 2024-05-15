@@ -4,7 +4,7 @@ import { Card } from "../ui/card";
 
 export default function Component() {
   return (
-    <Card>
+    <Card className="mt-10 ">
       <header className="py-8 dark:bg-gray-800">
         <div className="container mx-auto px-4 md:px-6">
           <h1 className="text-2xl font-bold tracking-tight">
@@ -38,73 +38,71 @@ export default function Component() {
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
-              <Card className=" h-300 w-400 rounded-md text-center inset-0">
+              <Card className="group h-300 w-400 rounded-md text-center inset-0">
                 <Link href="https://choco-pap-react.vercel.app">
-                  <Image
-                    alt="Des nouveaux projets arrivent bientôt"
-                    className="rounded-lg object-cover"
-                    height="300"
-                    src="/images/chocoPap.png"
-                    style={{
-                      opacity: 0.9,
-                      aspectRatio: "400/300",
-                      objectFit: "cover",
-                    }}
-                    width="400"
-                  />
+                  <div className="text-lg font-bold inset-0 mt-14 absolute opacity-0 group-hover:opacity-100 z-10">
+                    <h3>Mon tout premier site</h3>
+                  </div>
+                  <div className="rounded-lg object-cover z-0 group-hover:opacity-60 grid-cols-2 ">
+                    <Image
+                      alt="Image site Choco Pap"
+                      className="rounded-lg object-cover"
+                      height="300"
+                      src="/images/chocoPap.png"
+                      style={{
+                        opacity: 0.9,
+                        aspectRatio: "400/300",
+                        objectFit: "cover",
+                      }}
+                      width="400"
+                    />
+                  </div>
                 </Link>
               </Card>
 
-              <Card>
-                <h3 className="text-lg font-bold m-9 absolute">
-                  En cours d&apos;ctualisation
-                </h3>
-                <Image
-                  alt=""
-                  className="rounded-lg object-cover"
-                  height="300"
-                  src="/images/Bike.png"
-                  style={{
-                    opacity: 0.2,
-                    aspectRatio: "400/300",
-                    objectFit: "cover",
-                  }}
-                  width="400"
-                />
+              <Card className="group h-300 w-400 rounded-md text-center inset-0 transform translate-y-20">
+                <Link href="https://gabs-robot.vercel.app">
+                  <div className="text-lg font-bold inset-0 mt-14 absolute opacity-0 group-hover:opacity-100 z-10">
+                    <h3>3D Scroll Animation</h3>
+                  </div>
+
+                  <div className="rounded-lg object-cover z-0 group-hover:opacity-60 ">
+                    <Image
+                      alt="Image site 3D Scroll Animation"
+                      className="rounded-lg object-cover"
+                      height="300"
+                      src="/images/robot.png"
+                      style={{
+                        opacity: 0.9,
+                        aspectRatio: "400/300",
+                        objectFit: "cover",
+                      }}
+                      width="400"
+                    />
+                  </div>
+                </Link>
               </Card>
-              <Card className=" h-300 w-400 rounded-md text-center inset-0">
-                <h3 className="text-lg font-bold m-9 absolute">
-                  En cours d&apos;ctualisation
-                </h3>
-                <Image
-                  alt=""
-                  className="rounded-lg object-cover"
-                  height="300"
-                  src="/"
-                  style={{
-                    opacity: 0,
-                    aspectRatio: "400/300",
-                    objectFit: "cover",
-                  }}
-                  width="400"
-                />
-              </Card>
-              <Card className=" h-300 w-400 rounded-md text-center inset-0">
-                <h3 className="text-lg font-bold m-9 absolute">
-                  En cours d&apos;ctualisation
-                </h3>
-                <Image
-                  alt=""
-                  className="rounded-lg object-cover"
-                  height="300"
-                  src="/"
-                  style={{
-                    opacity: 0,
-                    aspectRatio: "400/300",
-                    objectFit: "cover",
-                  }}
-                  width="400"
-                />
+
+              <Card className="group h-300 w-400 rounded-md text-center inset-0">
+                <Link href="https://blog-sanity-gabs.vercel.app/">
+                  <div className="text-lg font-bold mt-14 absolute opacity-0 group-hover:opacity-100 z-10 inset-0">
+                    <h3>Blog CMS Sanity</h3>
+                  </div>
+                  <div className="rounded-lg object-cover z-0 group-hover:opacity-60 ">
+                    <Image
+                      alt="Image site Blog CMS Sanity"
+                      height="300"
+                      className="rounded-lg object-cover"
+                      src="/images/sanity.png"
+                      style={{
+                        opacity: 0.9,
+                        aspectRatio: "400/300",
+                        objectFit: "cover",
+                      }}
+                      width="400"
+                    />
+                  </div>
+                </Link>
               </Card>
             </div>
           </div>
