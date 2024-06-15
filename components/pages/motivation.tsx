@@ -17,27 +17,22 @@ export default function Motivation() {
         <CardContent className="text-lg leading-relaxed">
           <p className="text-lg leading-relaxed ">
             Ancienne streameuse et étudiante passionnée de développement
-            informatique, je me tourne désormais vers ma troisième année
-            d&apos;études supérieures en développement web à Ynov Bordeaux.
-            Forte d&apos;une base théorique et pratique acquise au cours de mes
-            deux dernières années d’études en développement web et web mobile à
-            l&apos;EPSI, je suis prête à mettre en pratique mes compétences et à
-            approfondir mes connaissances dans un environnement stimulant.
+            informatique, aujourd’hui, je suis à la recherche d’une alternance
+            pour intégrer ma troisième année d&apos;études supérieures en
+            développement chez Ynov Bordeaux. Doté d&apos;une base théorique et
+            pratique acquise au cours de mes deux dernières années d’études et
+            une formation certifiante développement web et web mobile chez EPSI,
+            je suis prête à mettre en pratique mes compétences et
+            d&apos;approfondir mes connaissances dans un environnement
+            professionnel stimulant.
           </p>
           <br />
           <p>
-            Motivée par l&apos;idée d&apos;intégrer cette école dynamique où je
-            pourrai contribuer à des projets concrets tout en continuant à
-            apprendre et à progresser, je suis ouverte à de nouveaux défis et
-            prête à &apos;investir pleinement dans les missions qui me seront
-            confiées.
+            Au cours de mes études, j&apos;ai développé une solide expertise
+            dans la programmation et l&apos;utilisation de logiciels.
           </p>
           <br />
-          <p>
-            Au fil de mes études, j&apos;ai développé une solide expertise dans
-            la programmation et l&apos;utilisation de logiciels. Maîtrisant
-            plusieurs langages full stack tels que :
-          </p>
+          <p>Maîtrisant plusieurs langages full stack tels que :</p>
           <br />
           <p>Front-end : HTML, CSS et JavaScript. </p>
           <br />
@@ -52,18 +47,24 @@ export default function Motivation() {
             Mon approche méthodique et mon souci du détail me permettent de
             produire un code propre et efficace. De plus, mon esprit
             d&apos;équipe et ma capacité à m&apos;adapter rapidement me
-            permettent de m&apos;intégrer facilement à différents projets.
+            permettent de m&apos;intégrer facilement à différents projets. Je
+            suis motivée par l&apos;idée de mettre mes compétences au service de
+            votre entreprise où je pourrai contribuer à des projets concrets
+            tout en continuant à apprendre et à progresser. Je suis ouverte à de
+            nouveaux défis et prête à m&apos;investir pleinement dans les
+            missions qui me seront confiées.
           </p>
           <br />
           <p>
-            Avec 8 ans d&apos;expérience dans le milieu de la restauration et
-            des expériences de voyages en immersion dans différents pays, j’ai
-            acquis une polyvalence, une réactivité et un esprit
-            d&apos;initiative. Organisée, appréciant le travail en équipe tout
-            autant que l&apos;autonomie, je suis convaincue que mon parcours
-            atypique apportera un regard créatif et des retombées positives dans
-            votre établissement. Je suis disponible pour discuter de toute
-            opportunité et impatiente de contribuer au parcours de votre école.
+            Avec 8 ans dans le milieu de la restauration et des expériences de
+            voyages en immersion dans différents pays, m’ont permis d’être
+            polyvalente, réactive et d’avoir un esprit d’incitative. De ce fait,
+            je suis une personne qui adore apprendre, organisée, qui apprécie le
+            travail d’équipe ainsi qu’en autonomie, je suis certaine qu’avec mon
+            parcours atypique, j&apos;apporterais un regard créatif et des
+            retombées positives dans votre entreprise. Je suis disponible pour
+            discuter de toute opportunité et je suis impatiente de contribuer
+            dans votre société.
           </p>
         </CardContent>
         <CardFooter>

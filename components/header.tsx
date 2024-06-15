@@ -22,12 +22,9 @@ export default function Component() {
               <CardContent className=" text-lg">
                 <p className="font-bold">Developpeuse web full-stack</p>
                 <CardDescription className=" text-white text-base pt-4">
-                  Ancienne streameuse et étudiante passionnée de développement
-                  informatique, Aujourd&rsquo;hui, je souhaite m&rsquo;orienter
-                  vers ma troisième année d&rsquo;études supérieures en
-                  développement web chez Ynov Bordeaux. Je suis prête à mettre
-                  en pratique mes compétences et d&rsquo;approfondir mes
-                  connaissances dans un environnement stimulant.
+                  Étudiante passionnée de développement informatique, je
+                  recherche une alternance pour ma troisième année d&apos;études
+                  en développement chez Ynov Bordeaux.
                 </CardDescription>
               </CardContent>
             </div>
