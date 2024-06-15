@@ -60,7 +60,7 @@ export default function Component() {
                 </Link>
               </Card>
 
-              <Card className="group h-300 w-400 rounded-md text-center inset-0 transform translate-y-20">
+              <Card className="group h-300 w-400 rounded-md text-center inset-0 ">
                 <Link href="https://gabs-robot.vercel.app">
                   <div className="text-lg font-bold inset-0 mt-14 absolute opacity-0 group-hover:opacity-100 z-10">
                     <h3>3D Scroll Animation</h3>
@@ -94,6 +94,28 @@ export default function Component() {
                       height="300"
                       className="rounded-lg object-cover"
                       src="/images/sanity.png"
+                      style={{
+                        opacity: 0.9,
+                        aspectRatio: "400/300",
+                        objectFit: "cover",
+                      }}
+                      width="400"
+                    />
+                  </div>
+                </Link>
+              </Card>
+
+              <Card className="group h-300 w-400 rounded-md text-center inset-0">
+                <Link href="https://saas-gabs.vercel.app/">
+                  <div className="text-lg font-bold mt-14 absolute opacity-0 group-hover:opacity-100 z-10 inset-0">
+                    <h3>Template Saas Animate</h3>
+                  </div>
+                  <div className="rounded-lg object-cover z-0 group-hover:opacity-60 ">
+                    <Image
+                      alt="Image site SaaS Template"
+                      height="300"
+                      className="rounded-lg object-cover"
+                      src="/images/saas.png"
                       style={{
                         opacity: 0.9,
                         aspectRatio: "400/300",
