@@ -21,7 +21,7 @@ export default function Component() {
               </CardTitle>
               <CardContent className=" text-lg">
                 <p className="font-bold">Developpeuse web full-stack</p>
-                <CardDescription className=" text-white pt-4">
+                <CardDescription className=" text-white text-base pt-4">
                   Ancienne streameuse et étudiante passionnée de développement
                   informatique, Aujourd&rsquo;hui, je souhaite m&rsquo;orienter
                   vers ma troisième année d&rsquo;études supérieures en
@@ -127,7 +127,7 @@ export default function Component() {
             <p className="pb-4">THREE.JS JOURNEY</p>
 
             <div className="flex flex-col gap-2 text-sm text-muted-foreground">
-              <CardDescription className="max-w-60 text-white text-xs">
+              <CardDescription className="max-w-60 text-white text-sm">
                 Expérience approfondie en Three.js, Maîtrise de WebGL et
                 capacité à créer des projets 3D interactifs de manière autonome
                 sur le web
@@ -144,7 +144,7 @@ export default function Component() {
             <p>BEGIN REACT</p>
             <p className="pb-4">BEGIN JAVASCRIPT</p>
             <div className="flex flex-col gap-2 text-sm text-muted-foreground">
-              <CardDescription className="max-w-60 text-white text-xs">
+              <CardDescription className="max-w-60 text-white text-sm">
                 Développement de compétences en React et JavaScript, Création
                 d&apos;applications web modernes et dynamiques
               </CardDescription>
