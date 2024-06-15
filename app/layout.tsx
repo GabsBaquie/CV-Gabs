@@ -1,6 +1,7 @@
 import Background from "@/components/background/background";
 import { Source_Code_Pro } from "next/font/google";
 
+import { cn } from "@/lib/utils";
 import { Metadata } from "next";
 import "./globals.css";
 
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={sourceSansPro.className}>
+      <body className={cn(sourceSansPro.className, "h-full overflow-x-hidden")}>
         <Background>{children}</Background>
       </body>
     </html>
