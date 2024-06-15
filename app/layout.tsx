@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={cn(sourceSansPro.className, "h-full overflow-x-hidden")}>
+      <body className={cn(sourceSansPro.className, "h-full")}>
         <Background>{children}</Background>
       </body>
     </html>
