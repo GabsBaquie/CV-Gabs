@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <NavBar onNavClick={handleNavClick} />
-      <main className="h-full flex justify-center max-w-5xl overflow-x-hidden ">
+      <main className=" flex justify-center max-w-5xl overflow-x-hidden ">
         {visibleComponent === "Header" && (
           <motion.section
             id="Header"
