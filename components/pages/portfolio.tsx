@@ -10,19 +10,19 @@ export default function Component() {
           <h1 className="text-2xl font-bold tracking-tight">
             Portfolio Project
           </h1>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-lg ">
             Découvrez mon dernier projet de portfolio en ligne.
           </p>
         </div>
       </header>
-      <main className="py-12 md:py-16 lg:py-20">
+      <main className="py-8 ">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid gap-8 lg:grid-cols-2">
             <div>
               <h2 className="text-2xl font-bold tracking-tight">
                 Présentation de projet
               </h2>
-              <p className="mt-4 text-muted-foreground">
+              <p className="mt-4 ">
                 Ce projet de portfolio a été conçu pour mettre en valeur mes
                 compétences de développeur web. Il comprend une interface
                 responsive, des animations fluides et une structure de
@@ -30,7 +30,7 @@ export default function Component() {
                 technologies web pour construire cette application, notamment
                 React, Tailwind CSS et Vercel.
               </p>
-              <p className="mt-4 text-muted-foreground">
+              <p className="mt-4 ">
                 Vous pourrez découvrir mes différents projets, mes expériences
                 professionnelles et mes compétences techniques. N&apos;hésitez
                 pas à me contacter si vous avez des questions ou si vous
@@ -130,7 +130,7 @@ export default function Component() {
           </div>
         </div>
       </main>
-      <section className=" py-12 md:py-16 lg:py-20 dark:bg-gray-800">
+      <section className=" py-12 dark:bg-gray-800">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
             Contactez-moi
