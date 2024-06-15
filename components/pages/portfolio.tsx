@@ -40,7 +40,7 @@ export default function Component() {
             <div className="grid gap-4 sm:grid-cols-2">
               <Card className="group h-300 w-400 rounded-md text-center inset-0">
                 <Link href="https://choco-pap-react.vercel.app">
-                  <div className="text-lg font-bold inset-0 mt-14 absolute opacity-0 group-hover:opacity-100 z-10">
+                  <div className="text-lg font-bold inset-0 mt-14 absolute opacity-0 group-hover:opacity-100 z-10 hidden sm:block">
                     <h3>Mon tout premier site</h3>
                   </div>
                   <div className="rounded-lg object-cover z-0 group-hover:opacity-60 grid-cols-2 ">
@@ -62,7 +62,7 @@ export default function Component() {
 
               <Card className="group h-300 w-400 rounded-md text-center inset-0 ">
                 <Link href="https://gabs-robot.vercel.app">
-                  <div className="text-lg font-bold inset-0 mt-14 absolute opacity-0 group-hover:opacity-100 z-10">
+                  <div className="text-lg font-bold inset-0 mt-14 absolute opacity-0 group-hover:opacity-100 z-10 hidden sm:block">
                     <h3>3D Scroll Animation</h3>
                   </div>
 
@@ -85,7 +85,7 @@ export default function Component() {
 
               <Card className="group h-300 w-400 rounded-md text-center inset-0">
                 <Link href="https://blog-sanity-gabs.vercel.app/">
-                  <div className="text-lg font-bold mt-14 absolute opacity-0 group-hover:opacity-100 z-10 inset-0">
+                  <div className="text-lg font-bold mt-14 absolute opacity-0 group-hover:opacity-100 z-10 inset-0 hidden sm:block">
                     <h3>Blog CMS Sanity</h3>
                   </div>
                   <div className="rounded-lg object-cover z-0 group-hover:opacity-60 ">
@@ -107,7 +107,7 @@ export default function Component() {
 
               <Card className="group h-300 w-400 rounded-md text-center inset-0">
                 <Link href="https://saas-gabs.vercel.app/">
-                  <div className="text-lg font-bold mt-14 absolute opacity-0 group-hover:opacity-100 z-10 inset-0">
+                  <div className="text-lg font-bold mt-14 absolute opacity-0 group-hover:opacity-100 z-10 inset-0 hidden sm:block">
                     <h3>Template Saas Animate</h3>
                   </div>
                   <div className="rounded-lg object-cover z-0 group-hover:opacity-60 ">
