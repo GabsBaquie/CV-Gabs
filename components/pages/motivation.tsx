@@ -34,13 +34,13 @@ export default function Motivation() {
           <br />
           <p>Maîtrisant plusieurs langages full stack tels que :</p>
           <br />
-          <p>Front-end : HTML, CSS et JavaScript. </p>
+          <p>Front-end : HTML, CSS et JavaScript / TypeScript. </p>
           <br />
           <p>
-            Back-end : Python, PHP, Ruby and Rails et SQL, ainsi que des
-            technologies comme React, Next.js, Tailwind CSS, Three.js (3D),
-            j&apos;ai également acquis une expérience basique dans le
-            développement d&apos;applications mobiles native.
+            Back-end : Node.js, PHP et SQL, ainsi que des technologies comme
+            React, Next.js, Tailwind CSS, Three.js (3D), j&apos;ai également
+            acquis une expérience basique dans le développement
+            d&apos;applications mobiles native.
           </p>
           <br />
           <p>

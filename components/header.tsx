@@ -65,17 +65,17 @@ export default function Component() {
           </CardHeader>
           <CardContent className="space-y-2">
             <p>
-              Expertise dans les technologies back-end telles que Node.js, PHP,
-              Python et Ruby on Rails. Conception d&apos;API RESTful et de
-              systèmes de gestion de données robustes.
+              Expertise dans les technologies back-end telles que Node.js, PHP
+              et TypeScript. Conception d&apos;API RESTful et de systèmes de
+              gestion de données robustes.
             </p>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <PuzzleIcon className="w-4 h-4" />
-              <span>Node.js, PHP, Python</span>
+              <span>Node.js, PHP, SQL</span>
             </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <CodeIcon className="w-4 h-4" />
-              <span>Ruby on Rails</span>
+              <span>TypeScript</span>
             </div>
           </CardContent>
         </Card>
@@ -96,7 +96,7 @@ export default function Component() {
             </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <CodeIcon className="w-4 h-4" />
-              <span>Redux, Axios, Moment.js</span>
+              <span>Redux, Axios</span>
             </div>
           </CardContent>
         </Card>

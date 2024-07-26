@@ -139,6 +139,14 @@ export default function Component() {
             N&apos;hésitez pas à me contacter pour toute question ou
             collaboration.
           </p>
+          <p className="mt-2 text-muted-foreground">
+            Email:
+            <Link
+              href="mailto:gabriellebaquie@gmail.com"
+              className="text-blue-500 p-2">
+              gabriellebaquie@gmail.com
+            </Link>
+          </p>
         </div>
       </section>
     </Card>
