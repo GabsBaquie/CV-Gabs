@@ -60,7 +60,7 @@ export default function Component() {
                 </Link>
               </Card>
 
-              <Card className="group h-300 w-400 rounded-md text-center inset-0 ">
+              <Card className="group h-300 w-400 rounded-md text-center inset-0 max-h-[170px]">
                 <Link href="https://gabs-robot.vercel.app">
                   <div className="text-lg font-bold inset-0 mt-14 absolute opacity-0 group-hover:opacity-100 z-10 hidden sm:block">
                     <h3>3D Scroll Animation</h3>
@@ -83,7 +83,7 @@ export default function Component() {
                 </Link>
               </Card>
 
-              <Card className="group h-300 w-400 rounded-md text-center inset-0">
+              <Card className="group h-300 w-400 rounded-md text-center inset-0 max-h-[170px]">
                 <Link href="https://blog-sanity-gabs.vercel.app/">
                   <div className="text-lg font-bold mt-14 absolute opacity-0 group-hover:opacity-100 z-10 inset-0 hidden sm:block">
                     <h3>Blog CMS Sanity</h3>
@@ -105,7 +105,7 @@ export default function Component() {
                 </Link>
               </Card>
 
-              <Card className="group h-300 w-400 rounded-md text-center inset-0">
+              <Card className="group h-300 w-400 rounded-md text-center inset-0 max-h-[170px]">
                 <Link href="https://saas-gabs.vercel.app/">
                   <div className="text-lg font-bold mt-14 absolute opacity-0 group-hover:opacity-100 z-10 inset-0 hidden sm:block">
                     <h3>Template Saas Animate</h3>
