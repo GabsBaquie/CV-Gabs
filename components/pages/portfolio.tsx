@@ -38,9 +38,9 @@ export default function Component() {
               </p>
             </div>
             <div className="grid gap-8 sm:gap-4 sm:grid-cols-2">
-              <Card className="group h-300 w-400 rounded-md text-center inset-0">
+              <Card className="group h-300 w-400 rounded-md text-center inset-0 max-h-[170px]">
                 <Link href="https://choco-pap-react.vercel.app">
-                  <div className="max-h-[170px] text-lg font-bold inset-0 mt-14 absolute opacity-0 group-hover:opacity-100 z-10 hidden sm:block">
+                  <div className="text-lg font-bold inset-0 mt-14 absolute opacity-0 group-hover:opacity-100 z-10 hidden sm:block">
                     <h3>Mon tout premier site</h3>
                   </div>
                   <div className="rounded-lg object-cover z-0 group-hover:opacity-60 grid-cols-2 ">
